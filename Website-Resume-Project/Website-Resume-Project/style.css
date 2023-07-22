@@ -85,7 +85,10 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
+    background-image: url('https://github.com/RenePung/Website-Resume-Project/blob/main/Thumbnail%20Pictures/TradingViewProject%20Thumbnail.png?raw=true');
+  /* Add other background properties as needed, e.g., background-size, background-position, etc. */
+  background-size: cover;
+  background-position: center;
   }
   #loading-animation .dots span{
     position: absolute;
