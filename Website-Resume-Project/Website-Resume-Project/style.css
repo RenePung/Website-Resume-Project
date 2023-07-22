@@ -86,6 +86,10 @@ body {
 
 #introduction-text {
     text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 /*ABOUT ME SECTION END*/
