@@ -8,6 +8,7 @@ body {
     --color1: #FFF ;
     --color2: #000000 ;
 }
+/*NAV BAR START*/
 .nav-bar {
     width: 100%;
     display: flex;
@@ -76,6 +77,11 @@ body {
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+}
+/*NAV BAR END*/
+
+#about-me-h1 {
+    text-align: center;
 }
 
 /*LOADING ANIMATION START*/
