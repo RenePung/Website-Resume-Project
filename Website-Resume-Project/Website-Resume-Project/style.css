@@ -92,6 +92,11 @@ body {
     padding-top: 30px;
 }
 
+#about-section {
+    width: 100%;
+    height: 100vh;
+}
+
 /*ABOUT ME SECTION END*/
 
 /*PROJECTS SECTION START*/
