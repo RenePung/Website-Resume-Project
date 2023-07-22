@@ -79,10 +79,16 @@ body {
     #check:checked ~ .menu {right: 0;}
 }
 /*NAV BAR END*/
-
+/*ABOUT ME SECTION START*/
 #about-me-h1 {
     text-align: center;
 }
+
+#introduction-text {
+    text-align: center;
+}
+
+/*ABOUT ME SECTION END*/
 
 /*LOADING ANIMATION START*/
 #loading-animation{
