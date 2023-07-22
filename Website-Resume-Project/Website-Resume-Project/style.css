@@ -94,6 +94,13 @@ body {
 
 /*ABOUT ME SECTION END*/
 
+/*PROJECTS SECTION START*/
+#projects-h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*PROJECTS SECTION END*/
+
 /*LOADING ANIMATION START*/
 #loading-animation{
     display: flex;
