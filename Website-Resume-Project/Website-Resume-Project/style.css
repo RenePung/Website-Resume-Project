@@ -152,3 +152,29 @@ body {
     padding-top: 5rem;
   }  
   /*CERTIFICATES SECTION END*/
+
+
+/*CERTIFICATES SLIDER START*/
+  .container-slider {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper {
+    width: 80%;
+    height: fit-content
+  }
+  .swiper-slide img{
+    width: 100%;
+  }
+
+
+  .swiper {
+    width: 600px;
+    height: 600px;
+  }
+/*CERTIFICATES SLIDER END*/
