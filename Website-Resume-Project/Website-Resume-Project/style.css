@@ -145,3 +145,10 @@ body {
    }
   }
   /*LOADING ANIMATION END*/
+
+  /*CERTIFICATES SECTION START*/
+#certificates-h1 {
+    text-align: center;
+    padding-top: 5rem;
+  }  
+  /*CERTIFICATES SECTION END*/
