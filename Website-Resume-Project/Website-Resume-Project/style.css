@@ -82,6 +82,7 @@ body {
 /*ABOUT ME SECTION START*/
 #about-me-h1 {
     text-align: center;
+    padding-top: 70px;
 }
 
 #introduction-text {
@@ -89,7 +90,7 @@ body {
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 40px;
-    padding-top: 30px;
+    padding-top: 130px;
 }
 
 #about-section {
