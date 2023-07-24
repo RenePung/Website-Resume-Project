@@ -15,9 +15,10 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    position: relative;
+    position: fixed;
     background-color: var(--color2);
     padding: 12px 20px;
+    z-index: 10;
 }
 .logo img {width: 40px;}
 .menu {display: flex;}
