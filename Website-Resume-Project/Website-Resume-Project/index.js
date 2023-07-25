@@ -1,11 +1,15 @@
-// Function to hide swiper buttons on mobile devices
 function hideSwiperButtonsOnMobile() {
     const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    if (screenWidth <= 768) { // Adjust this value to your desired screen width for mobile devices
+    if (screenWidth <= 768) { // Adjust this value to your desired screen width for mobile devices and tablets
       const swiperButtons = document.querySelectorAll('.swiper-button-next, .swiper-button-prev');
       swiperButtons.forEach(button => {
         button.style.display = 'none';
+      });
+    } else {
+      const swiperButtons = document.querySelectorAll('.swiper-button-next, .swiper-button-prev');
+      swiperButtons.forEach(button => {
+        button.style.display = 'block'; // Show the buttons on larger screens
       });
     }
   }
