@@ -101,6 +101,20 @@ body {
     height: 100vh;
 }
 
+/* Media query for smartphones */
+@media only screen and (max-width: 767px) {
+  #about-me-h1 {
+      padding-top: 30%; 
+  }
+
+  #introduction-text {
+      padding-left: 20px; 
+      padding-right: 20px; 
+      padding-bottom: 40px;
+      padding-top: 100px; 
+  }
+}
+
 /*ABOUT ME SECTION END*/
 
 
