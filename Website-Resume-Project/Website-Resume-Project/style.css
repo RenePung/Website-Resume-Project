@@ -206,3 +206,43 @@ body {
   padding-top: 5rem;
 }
 /*LEARNING PATHS SECTION END*/
+
+
+
+
+/*--------------------MEDIA QUERY--------------------*/
+
+
+/* Mobile devices in portrait view */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* Your CSS styles for portrait view on mobile devices go here */
+}
+
+/* Mobile devices in landscape view */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  /* Your CSS styles for landscape view on mobile devices go here */
+}  
+
+
+
+
+/* Tablets in portrait view */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Your CSS styles for portrait view on tablets go here */
+}
+
+/* Tablets in landscape view */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Your CSS styles for landscape view on tablets go here */
+}
+
+
+
+
+/* Desktop screens */
+@media only screen and (min-width: 1024px) {
+  /* Your CSS styles for desktop screens go here */
+}
+
+
+/*--------------------MEDIA QUERY--------------------*/
