@@ -197,7 +197,7 @@ body {
 
 
 /* Mobile devices in portrait view */
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 320px) and (orientation: portrait) {
 #about-me-h1 {
     padding-top: 5rem; 
 }
@@ -206,12 +206,13 @@ body {
     padding-left: 2rem; 
     padding-right: 2rem; 
     padding-bottom: 40rem;
-    padding-top: 6rem; 
+    padding-top: 3rem; 
+    font-size: 4vw;
 }
 }
 
 /* Mobile devices in landscape view */
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 320px) and (orientation: landscape) {
   /* Your CSS styles for landscape view on mobile devices go here */
 }  
 
