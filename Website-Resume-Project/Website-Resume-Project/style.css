@@ -270,3 +270,10 @@ button {
   cursor: pointer;
   font-size: 18px;
 }
+
+#version {
+  font-size: 2vw;
+  padding-bottom: 1rem;
+  align-items: center;
+  
+}
