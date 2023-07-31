@@ -183,11 +183,12 @@ body {
 
 
 
-
+/*
 #learning-paths-h1 {
   text-align: center;
   padding-top: 5rem;
 }
+*/
 
 
 
@@ -214,6 +215,11 @@ body {
   padding-top: 5rem;
 }
 
+#certificates-h1 {
+  text-align: center;
+  padding-top: 10rem;
+  
+}  
 #certificates-section {
   padding-top: 200rem;
 }
