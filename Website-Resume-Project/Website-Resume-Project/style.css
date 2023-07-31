@@ -83,17 +83,30 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #about-me-h1 {
     text-align: center;
-    padding-top: 120px;
+    padding-top: ;
 }
 
 #introduction-text {
     text-align: center;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 40px;
-    padding-top: 160px;
+    padding-left: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-top: ;
 }
 
 #about-section {
@@ -111,6 +124,18 @@ body {
     width: 100%;
     height: 10vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -189,51 +214,3 @@ body {
   padding-top: 5rem;
 }
 */
-
-
-
-
-
-/*--------------------MEDIA QUERY--------------------*/
-
-
-/* Mobile devices in portrait view */
-@media only screen and (max-width: 320px) and (orientation: portrait) {
-#about-me-h1 {
-    padding-top: 5rem; 
-}
-
-#introduction-text {
-    padding-left: 2rem; 
-    padding-right: 2rem; 
-    padding-bottom: 40rem;
-    padding-top: 3rem; 
-    font-size: 4vw;
-}
-
-#projects-section {
-  padding-top: 5rem;
-}
-
-#certificates-h1 {
-  text-align: center;
-  padding-top: 10rem;
-  
-}  
-#certificates-section {
-  padding-top: 200rem;
-}
-}
-
-/* Mobile devices in landscape view */
-@media only screen and (max-width: 320px) and (orientation: landscape) {
-  /* Your CSS styles for landscape view on mobile devices go here */
-}  
-
-
-
-
-
-
-
-/*--------------------MEDIA QUERY--------------------*/
