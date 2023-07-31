@@ -102,7 +102,6 @@ body {
 
 #about-section {
     width: 100%;
-    height: 100vh;
 }
 /*PROJECT SECTION ------------------------------------------------------------*/
 
@@ -113,7 +112,6 @@ body {
 
 #projects-section {
     width: 100%;
-    height: 10vh;
 }
 
 #loading-animation{
@@ -161,7 +159,6 @@ body {
 
 .container-slider {
   width: 100%;
-  height: 100vh;
   background: #ffffff;
   display: flex;
   align-items: center;
