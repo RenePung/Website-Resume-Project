@@ -263,12 +263,14 @@ button {
 .social {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 .social li {
   margin: 0 8px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 25px;
+  padding-right: 1.5rem;
 }
 
 #version {
