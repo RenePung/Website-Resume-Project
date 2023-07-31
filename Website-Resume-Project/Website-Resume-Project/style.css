@@ -219,23 +219,7 @@ body {
 
 
 
-/* Tablets in portrait view */
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-  /* Your CSS styles for portrait view on tablets go here */
-}
 
-/* Tablets in landscape view */
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  /* Your CSS styles for landscape view on tablets go here */
-}
-
-
-
-
-/* Desktop screens */
-@media only screen and (min-width: 1024px) {
-  /* Your CSS styles for desktop screens go here */
-}
 
 
 /*--------------------MEDIA QUERY--------------------*/
