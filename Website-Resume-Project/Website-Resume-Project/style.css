@@ -218,6 +218,7 @@ body {
   font-size: 1.3rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  padding-left: 1.8rem;
 }
 
 .links li {
@@ -225,6 +226,8 @@ body {
   line-height: 30px;
   text-align: center;
   font-weight: 100;
+  align-items: center;
+  padding-right: 2rem;
 }
 
 .links li a {
@@ -278,4 +281,15 @@ button {
   padding-bottom: 1rem;
   align-items: center;
   
+}
+
+#h2-gmail {
+  align-items: center;
+  padding-right: 2rem;
+}
+#h2-contact {
+  padding-right: 2rem;
+}
+#h2-menu {
+  padding-right: 1.8rem;
 }
