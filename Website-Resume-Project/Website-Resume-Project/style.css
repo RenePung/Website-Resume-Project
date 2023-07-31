@@ -213,6 +213,10 @@ body {
 #projects-section {
   padding-top: 5rem;
 }
+
+#certificates-section {
+  padding-top: 200rem;
+}
 }
 
 /* Mobile devices in landscape view */
