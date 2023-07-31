@@ -84,18 +84,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*SECTIONS -----------------------------------------------------------------*/
 #about-me-h1 {
     text-align: center;
     padding-top: ;
@@ -124,14 +113,6 @@ body {
     width: 100%;
     height: 10vh;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -175,8 +156,8 @@ body {
 
 
 #certificates-h1 {
-    text-align: center;
-    padding-top: 5rem;
+  text-align: center;
+  padding-top: 5rem;
     
   }  
   
