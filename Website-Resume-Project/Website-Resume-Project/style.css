@@ -87,15 +87,17 @@ body {
 /*SECTIONS -----------------------------------------------------------------*/
 #about-me-h1 {
     text-align: center;
-    padding-top: ;
+    padding-top: 5.5rem;
+    font-size: 7vw;
 }
 
 #introduction-text {
     text-align: center;
-    padding-left: ;
-    padding-right: ;
-    padding-bottom: ;
-    padding-top: ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    font-size: 4vw;
 }
 
 #about-section {
