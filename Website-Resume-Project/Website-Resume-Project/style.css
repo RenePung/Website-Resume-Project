@@ -209,6 +209,10 @@ body {
     padding-top: 3rem; 
     font-size: 4vw;
 }
+
+#projects-section {
+  padding-top: 5rem;
+}
 }
 
 /* Mobile devices in landscape view */
