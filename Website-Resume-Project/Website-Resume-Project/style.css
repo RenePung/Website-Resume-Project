@@ -292,3 +292,39 @@ button {
 #h2-menu {
   padding-right: 1.8rem;
 }
+
+/*CHART -----------------------------------------------------------------------*/
+.chart-container {
+  position: relative;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 48vh;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border: 2px solid rgba(0, 68, 198, 1);
+  top: 3rem;
+}
+
+#myChart {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#chart-button {
+  position: relative;
+  top: 3rem;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 68, 198, 1);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chart-button:hover {
+  background-color: rgba(0, 68, 198, 0.76);
+}

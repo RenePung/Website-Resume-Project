@@ -165,30 +165,83 @@
     
 
     
-    
+    <!--LEARNING PATHS SECTION START-->
     <section id="learning-paths-section" class="learning-paths-section">
     <h1 id="learning-paths-h1">Learning paths</h1>
-    <ul>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Bootstrap</li>
-        <li>jQuery</li>
-        <li>UNIX</li>
-        <li>Node.js</li>
-        <li>EJS</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>APIs</li>
-        <li>SQL</li>
-        <li>Mongoose</li>
-        <li>MongoDB</li>
-        <li>React.js</li>
-        <li>Wireframes</li>
-        <li>Python</li>
-      </ul>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+      </div>
+      
+      <button id="chart-button" onclick="resetZoomChart()">Reset</button>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js" integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        // Declare a global variable to store the chart object
+        let myChart;
+      
+        const ctx = document.getElementById('myChart');
+      
+        myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['HTML/CSS', 'JavaScript', 'Python', 'BootStrap', 'SQL', 'jQuery'],
+            datasets: [{
+              label: '# of Hours',
+              data: [700, 400, 30, 15, 20, 30],
+              borderWidth: 3,
+              borderRadius: 5,
+              backgroundColor: 'rgba(0, 68, 198, 0.76)',
+              borderColor: 'rgba(0, 68, 198, 1)',
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                ticks: {
+                  color: 'black'
+                }
+              },
+              y: {
+                ticks: {
+                  color: 'rgba(0, 68, 198, 1)'
+                },
+                beginAtZero: true
+              }
+            },
+            plugins: {
+              zoom: {
+                pan: {
+                  enabled: true,
+                  mode: 'xy',
+                },
+                zoom: {
+                  mode: 'xy',
+                  overScaleMode: 'xy',
+                  wheel: {
+                    enabled: true,
+                    speed: 0.1
+                  },
+                  pinch: {
+                    enabled: true
+                  }
+                }
+              }
+            }
+          }
+        });
+      
+        function resetZoomChart() {
+          // Use the stored myChart object to reset zoom
+          myChart.resetZoom();
+        }
+      </script>
+  
     </section>
-    
+    <!--LEARNING PATHS SECTION END-->
     
 
 
