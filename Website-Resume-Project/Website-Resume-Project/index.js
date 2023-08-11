@@ -17,3 +17,21 @@ function hideSwiperButtonsOnMobile() {
   // Call the function on page load and whenever the window is resized
   document.addEventListener('DOMContentLoaded', hideSwiperButtonsOnMobile);
   window.addEventListener('resize', hideSwiperButtonsOnMobile);
+
+
+
+
+
+
+
+// BOX ARROW ANIMATION 
+
+const boxArrow = document.querySelector('.box-arrow');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { // Adjust the value 
+    boxArrow.style.visibility = 'hidden';
+  } else {
+    boxArrow.style.visibility = 'visible';
+  }
+});
