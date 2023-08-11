@@ -10,6 +10,52 @@ body {
 }
 
 
+/*BOX ARROW SCROLL DOWN*/
+.box-arrow{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box-arrow span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid grey;
+	border-right: 2px solid grey;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box-arrow span:nth-child(2)
+{
+	animation-delay: -0.2s;
+}
+
+.box-arrow span:nth-child(3)
+{
+	animation-delay: -0.4s;
+}
+
+@keyframes animate{
+	
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+/*BOX ARROW SCROLL DOWN*/
+
+
 /*NAV BAR START------------------------------------------------------------------------------------------------------------------------------------*/
 .nav-bar {
     width: 100%;
@@ -110,6 +156,7 @@ body {
 #projects-h1 {
     text-align: center;
     padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 #projects-section {
