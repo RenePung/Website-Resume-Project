@@ -135,7 +135,7 @@ body {
 /*ABOUT ME SECTION -----------------------------------------------------------------*/
 #about-me-h1 {
     text-align: center;
-    padding-top: 5.5rem;
+    padding-top: 5rem;
     font-size: 7vw;
 }
 
@@ -144,7 +144,7 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 5rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     font-size: 4vw;
 }
 
