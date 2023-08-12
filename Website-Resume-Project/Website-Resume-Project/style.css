@@ -395,3 +395,22 @@ button {
 #chart-button:hover {
   background-color: rgba(0, 68, 198, 0.76);
 }
+
+
+
+
+
+
+/*MEDIA QUERY PORTRAIT ----------------START------------------------*/
+
+@media (min-width: px) {
+
+}
+
+
+
+
+
+
+
+/*MEDIA QUERY PORTRAIT ----------------END------------------------*/
