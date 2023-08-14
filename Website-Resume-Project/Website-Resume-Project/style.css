@@ -251,6 +251,10 @@ body {
   width: 800%;
   height: 80%;
 }
+
+
+
+
 /*LEARNING PATHS SECTION -------------------------------------------------------*/
 
 
@@ -259,6 +263,61 @@ body {
   padding-top: 5rem;
   margin-top: 5rem;
 }
+
+/*LANGUAGES BAR TRACKER*/
+
+.tracker {
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #333; /* Add a border around the tracker */
+  border-radius: 10px; /* Add rounded corners to the border */
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 100px;
+}
+
+#languages-h2 {
+  font-size: 1em;
+  padding-bottom: 6%;
+}
+
+.languages-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.language-name {
+  flex: 1;
+}
+
+.language-bar {
+  width: 240px;
+  height: 15px;
+  background-color: #bdbdbd;
+  border-radius: 8px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.language-progress {
+  height: 100%;
+  background-color: rgba(0, 68, 198, 0.76);
+  border-radius: 8px;
+}
+
+.language-percentage {
+  width: 40px;
+  text-align: right;
+}
+
 
 /*CONTACTS SECTIONS -----------------------------------------------------------*/
 
@@ -371,6 +430,9 @@ button {
   padding-left: 0.5rem;
   border: 2px solid rgba(0, 68, 198, 1);
   top: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
 }
 
 #myChart {
@@ -390,6 +452,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 3%;
 }
 
 #chart-button:hover {
