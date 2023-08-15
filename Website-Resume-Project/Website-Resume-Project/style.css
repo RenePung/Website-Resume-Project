@@ -69,6 +69,7 @@ body {
   width: 100%;
   align-items: center;
   display: block;
+  margin-bottom: 1.5rem;
  
 }
 
@@ -76,7 +77,8 @@ body {
   width: 100%;
   align-items: center;
   display: block;
-  margin-top: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #responsive-image3{
@@ -230,10 +232,16 @@ body {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Ruwudu', serif;
 }
 
 #projects-section {
     width: 100%;
+    background-color: black;
+    margin-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 
 #loading-animation{
