@@ -233,8 +233,12 @@ body {
 #certificates-h1 {
   text-align: center;
   padding-top: 2rem;
-  margin-top: 5rem;
-}  
+  margin-top: 4.5rem;
+}
+
+#certificates-section {
+  padding-top: 0.1rem;
+}
   
 
 
