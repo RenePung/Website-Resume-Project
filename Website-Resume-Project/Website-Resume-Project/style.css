@@ -287,6 +287,9 @@ body {
   text-align: center;
   padding-top: 0rem;
   margin-top: 3em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-family: 'Ruwudu', serif;
 }
 
 #certificates-section {
