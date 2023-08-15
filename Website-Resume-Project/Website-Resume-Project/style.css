@@ -4,7 +4,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: clip; /*White space on the right side of the screen fixed - content overflow - if it is set to hidden, arrow animation stops working*/
 }
 
 *{
