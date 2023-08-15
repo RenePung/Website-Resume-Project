@@ -168,7 +168,9 @@ body {
     text-align: center;
     padding-top: 5rem;
     font-size: 7vw;
-    font-weight: 800;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: 'Ruwudu', serif;
 }
 
 #introduction-text {
@@ -177,12 +179,15 @@ body {
     padding-right: 2rem;
     padding-bottom: 5rem;
     padding-top: 1rem;
-    font-size: 4vw;
-    font-weight: 600;
+    font-size: 4.1vw;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Ruwudu', serif;
 }
 
 #about-section {
     width: 100%;
+    background-color: rgb(14, 14, 14);
 }
 /*PROJECTS SECTION ------------------------------------------------------------*/
 
