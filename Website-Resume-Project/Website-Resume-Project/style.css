@@ -69,7 +69,7 @@ body {
   width: 100%;
   align-items: center;
   display: block;
-  margin-bottom: 1.5rem;
+  margin: 0;
  
 }
 
@@ -185,6 +185,7 @@ body {
     font-weight: 100;
     color: rgb(255, 255, 255);
     font-family: 'Ruwudu', serif;
+    margin-bottom: 0;
 }
 
 #about-section {
