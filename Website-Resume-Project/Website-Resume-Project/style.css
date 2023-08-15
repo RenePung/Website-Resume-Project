@@ -77,15 +77,17 @@ body {
   width: 100%;
   align-items: center;
   display: block;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 #responsive-image3{
   width: 100%;
   align-items: center;
   display: block;
-  margin-top: 10rem;
+  margin-top: 0rem;
+  padding-bottom: 3rem;
+  background-color: black;
 }
 /*IMAGE DIVIDE DESIGN RENE PUNGARTNIK*/
 
@@ -241,8 +243,8 @@ body {
 #projects-section {
     width: 100%;
     background-color: black;
-    margin-bottom: 1rem;
-    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 2rem;
 }
 
 #loading-animation{
@@ -324,8 +326,16 @@ body {
 
 #learning-paths-h1 {
   text-align: center;
-  padding-top: 5rem;
-  margin-top: 5rem;
+  padding-top: 3rem;
+  margin-top: 0rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-family: 'Ruwudu', serif;
+}
+
+#learning-paths-section {
+  background-color: black;
+  padding-bottom: 3rem;
 }
 
 /*LANGUAGES BAR TRACKER*/
@@ -333,13 +343,14 @@ body {
 .tracker {
   max-width: 400px;
   padding: 10px;
-  border: 2px solid #333; /* Add a border around the tracker */
+  border: 2px solid #002fff; /* Add a border around the tracker */
   border-radius: 10px; /* Add rounded corners to the border */
   justify-content: center;
   align-items: center;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 100px;
+  color: white;
 }
 
 #languages-h2 {
@@ -365,7 +376,7 @@ body {
 .language-bar {
   width: 240px;
   height: 15px;
-  background-color: #bdbdbd;
+  background-color: #ffffff;
   border-radius: 8px;
   margin: 0 10px;
   position: relative;
@@ -373,7 +384,7 @@ body {
 
 .language-progress {
   height: 100%;
-  background-color: rgba(0, 68, 198, 0.76);
+  background-color: rgb(0, 162, 255);
   border-radius: 8px;
 }
 
