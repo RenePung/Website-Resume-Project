@@ -242,7 +242,7 @@ body {
     width: 100%;
     background-color: black;
     margin-bottom: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
 }
 
 #loading-animation{
