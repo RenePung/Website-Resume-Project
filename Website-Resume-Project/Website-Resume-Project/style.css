@@ -31,8 +31,8 @@ body {
 	display: block;
 	width: 20px;
 	height: 20px;
-	border-bottom: 2px solid grey;
-	border-right: 2px solid grey;
+	border-bottom: 2px solid rgb(255, 0, 0);
+	border-right: 2px solid rgb(255, 0, 0);
 	transform: rotate(45deg);
 	margin: -10px;
 	animation: animate 2s infinite;
@@ -167,7 +167,7 @@ body {
 #about-me-h1 {
     text-align: center;
     padding-top: 5rem;
-    font-size: 7vw;
+    font-size: 1.5rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     font-family: 'Ruwudu', serif;
@@ -179,8 +179,8 @@ body {
     padding-right: 2rem;
     padding-bottom: 5rem;
     padding-top: 1rem;
-    font-size: 4.1vw;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 100;
     color: rgb(255, 255, 255);
     font-family: 'Ruwudu', serif;
 }
