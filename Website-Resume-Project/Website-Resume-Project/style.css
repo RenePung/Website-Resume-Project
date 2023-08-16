@@ -171,8 +171,8 @@ body {
 #about-me-h1 {
     text-align: center;
     padding-top: 5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 500;
     color: rgb(255, 255, 255);
     font-family: 'Ruwudu', serif;
 }
@@ -183,8 +183,8 @@ body {
     padding-right: 2rem;
     padding-bottom: 5rem;
     padding-top: 1rem;
-    font-size: 0.9rem;
-    font-weight: 100;
+    font-size: 0.8rem;
+    font-weight: 50;
     color: rgb(255, 255, 255);
     font-family: 'Ruwudu', serif;
     margin-bottom: 0;
@@ -193,6 +193,7 @@ body {
 #about-section {
     width: 100%;
     background-color: rgb(14, 14, 14);
+    height: 100vh;
 }
 
 .fade-in-text {
