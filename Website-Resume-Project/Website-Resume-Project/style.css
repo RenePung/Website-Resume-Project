@@ -323,6 +323,19 @@ body {
   height: 80%;
 }
 
+.top-border-container {
+  border-top: 2px solid rgb(0, 0, 0);
+  padding-top: 20px;
+  margin-top: 2rem;
+  font-family: 'Ruwudu', serif;
+}
+
+#header-text-vertificates {
+  text-align: center;
+  font-family: 'Ruwudu', serif;
+  font-size: 1rem;
+}
+
 
 
 
