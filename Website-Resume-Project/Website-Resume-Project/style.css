@@ -633,7 +633,25 @@ button {
 }
 
 @media only screen and (min-width: 667px) and (orientation: landscape) {
-  
+  #img1-container {
+    margin-left: 4rem;
+    margin-right: 4.7rem;
+    overflow: hidden;
+  }
+  .tracker {
+    margin-left: 19%;
+  }
+
+  .container-slider {
+    width: 70%;
+    margin-left: 6rem;
+    
+  }
+  #img2-container {
+    margin-left: 4rem;
+    margin-right: 4.7rem;
+    overflow: hidden;
+  }
 }
 
 /*MEDIA QUERY 375px x 667px mode----------------END------------------------*/
