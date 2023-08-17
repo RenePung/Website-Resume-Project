@@ -605,16 +605,10 @@ button {
 
 
 
-/*MEDIA QUERY PORTRAIT ----------------START------------------------*/
-
-@media (min-width: px) {
-
+/*MEDIA QUERY 320px x 480px mode----------------START------------------------*/
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+  .tracker {
+    margin-left: 8%;
+  }
 }
-
-
-
-
-
-
-
-/*MEDIA QUERY PORTRAIT ----------------END------------------------*/
+/*MEDIA QUERY 320px x 480px mode----------------END------------------------*/
