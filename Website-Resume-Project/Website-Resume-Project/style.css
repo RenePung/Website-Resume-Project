@@ -373,7 +373,7 @@ body {
   align-items: center;
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 100px;
+  margin-top: 30px;
   color: white;
 }
 
@@ -415,6 +415,22 @@ body {
 .language-percentage {
   width: 40px;
   text-align: right;
+}
+
+
+#container-text-paths {
+  margin-top: 80px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+#text-paths {
+  font-family: 'Ruwudu', serif;
+  text-align: center;
+  color: rgb(18, 61, 255);
 }
 
 
