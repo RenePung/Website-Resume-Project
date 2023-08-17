@@ -655,3 +655,45 @@ button {
 }
 
 /*MEDIA QUERY 375px x 667px mode----------------END------------------------*/
+
+
+
+
+
+/*MEDIA QUERY 425px x 769px mode----------------START------------------------*/
+@media only screen and (min-width: 425px) {
+  #about-me-h1 {
+    font-size: 2rem;
+}
+
+#introduction-text {
+    padding-bottom: 0rem;
+    padding-top: 2.4rem;
+    font-size: 1.2rem;
+}
+.tracker {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
+
+@media only screen and (min-width: 769px) and (orientation: landscape) {
+  #about-me-h1 {
+    font-size: 2rem;
+}
+
+#introduction-text {
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+}
+.tracker {
+  margin-left: 23%;
+  margin-right: 10%;
+}
+}
+
+
+
+
+/*MEDIA QUERY 425px x 769px mode----------------END------------------------*/
