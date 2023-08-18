@@ -606,53 +606,14 @@ button {
 
 
 /*MEDIA QUERY 320px x 480px mode----------------START------------------------*/
-@media only screen and (min-width: 480px) and (orientation: landscape) {
-  .tracker {
-    margin-left: 8%;
-  }
-}
+
 /*MEDIA QUERY 320px x 480px mode----------------END------------------------*/
 
 
 
 
 
-
 /*MEDIA QUERY 375px x 667px mode----------------START------------------------*/
-@media only screen and (min-width: 375px) {
-  #about-me-h1 {
-    padding-top: 5rem;
-    font-size: 1.7rem;
-}
-
-#introduction-text {
-    padding-bottom: 0rem;
-    padding-top: 2.4rem;
-    font-size: 1rem;
-}
-}
-
-@media only screen and (min-width: 667px) and (orientation: landscape) {
-  #img1-container {
-    margin-left: 4rem;
-    margin-right: 4.7rem;
-    overflow: hidden;
-  }
-  .tracker {
-    margin-left: 19%;
-  }
-
-  .container-slider {
-    width: 70%;
-    margin-left: 6rem;
-    
-  }
-  #img2-container {
-    margin-left: 4rem;
-    margin-right: 4.7rem;
-    overflow: hidden;
-  }
-}
 
 /*MEDIA QUERY 375px x 667px mode----------------END------------------------*/
 
@@ -661,82 +622,13 @@ button {
 
 
 /*MEDIA QUERY 425px x 769px mode----------------START------------------------*/
-@media only screen and (min-width: 425px) {
-  #about-me-h1 {
-    font-size: 2rem;
-}
-
-#introduction-text {
-    padding-bottom: 0rem;
-    padding-top: 2.4rem;
-    font-size: 1.2rem;
-}
-.tracker {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-}
-
-@media only screen and (min-width: 769px) and (orientation: landscape) {
-  #about-me-h1 {
-    font-size: 2rem;
-}
-
-#introduction-text {
-    padding-bottom: 0rem;
-    padding-top: 2rem;
-    font-size: 1.1rem;
-}
-.tracker {
-  margin-left: 23%;
-  margin-right: 10%;
-}
-}
-
-
-
 
 /*MEDIA QUERY 425px x 769px mode----------------END------------------------*/
 
+
+
+
+
 /*MEDIA QUERY 769px x 1024px mode----------------START------------------------*/
-#about-me-h1 {
-  font-size: 2.3rem;
-  padding-top: 8rem;
-}
-
-#introduction-text {
-  padding-bottom: 0rem;
-  margin-top: 6rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  font-size: 1.6rem;
-}
-
-#img1-container {
-  margin-left: 5rem;
-  margin-right: 5rem;
-  overflow: hidden;
-}
-.tracker {
-  margin-left: 24%;
-  margin-right: 12%;
-}
-#text-paths {
-  font-size: 1.5rem;
-}
-
-.top-border-container {
-  font-size: 1.5rem;
-}
-
-#header-text-vertificates {
-  font-size: 1.7rem;
-}
-
-@media only screen and (min-width: 1024px) and (orientation: landscape) {
-  
-}
-
-
 
 /*MEDIA QUERY 769px x 1024px mode----------------END------------------------*/
