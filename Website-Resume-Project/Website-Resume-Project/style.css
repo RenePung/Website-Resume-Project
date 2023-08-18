@@ -631,11 +631,11 @@ button {
 
 
 
-
+/*MEDIA QUERYS FOR PORTRAIT AND LANDSCAPE POSITION - MOBILE FIRST - SPECIFIC DEVICE WIDTHS - USING CHROME DEVELOPER TOOL START------------------------------------------------------*/
 
 
 /*MEDIA QUERY 320px x 480px mode----------------START------------------------*/
-
+                                                                              
 /*MEDIA QUERY 320px x 480px mode----------------END------------------------*/
 
 
@@ -661,3 +661,6 @@ button {
 /*MEDIA QUERY 769px x 1024px mode----------------START------------------------*/
 
 /*MEDIA QUERY 769px x 1024px mode----------------END------------------------*/
+
+
+/*MEDIA QUERYS FOR PORTRAIT AND LANDSCAPE POSITION - MOBILE FIRST - SPECIFIC DEVICE WIDTHS - USING CHROME DEVELOPER TOOL START------------------------------------------------------*/
