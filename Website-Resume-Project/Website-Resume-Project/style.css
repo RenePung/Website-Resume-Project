@@ -5,6 +5,9 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: clip; /*White space on the right side of the screen fixed - content overflow - if it is set to hidden, arrow animation stops working*/
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #000000 ;
 }
 
 *{
@@ -12,14 +15,7 @@ html,body
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: "Poppins", sans-serif;
-    --color1: #FFF ;
-    --color2: #000000 ;
-}
-
-
-
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*BOX ARROW SCROLL DOWN*/
 .box-arrow{
