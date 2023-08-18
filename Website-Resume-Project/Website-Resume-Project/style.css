@@ -19,6 +19,8 @@ body {
 }
 
 
+
+
 /*BOX ARROW SCROLL DOWN*/
 .box-arrow{
 	position: absolute;
@@ -64,6 +66,9 @@ body {
 }
 /*BOX ARROW SCROLL DOWN*/
 
+
+
+
 /*IMAGE DIVIDE DESIGN RENE PUNGARTNIK*/
 #responsive-image {
   width: 100%;
@@ -90,6 +95,10 @@ body {
   background-color: black;
 }
 /*IMAGE DIVIDE DESIGN RENE PUNGARTNIK*/
+
+
+
+
 
 /*NAV BAR START------------------------------------------------------------------------------------------------------------------------------------*/
 .nav-bar {
@@ -230,6 +239,10 @@ body {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+
+
+
 /*PROJECTS SECTION ------------------------------------------------------------*/
 
 #projects-h1 {
@@ -280,6 +293,9 @@ body {
      opacity: 0;
    }
   }
+/*PROJECTS SECTION ------------------------------------------------------------*/
+
+
 
 
 /*CERTIFICATES SECTION ---------------------------------------------------------*/
@@ -341,6 +357,7 @@ body {
   padding-bottom: 15px;
   font-weight: 600;
 }
+/*CERTIFICATES SECTION ---------------------------------------------------------*/
 
 
 
@@ -432,6 +449,8 @@ body {
   text-align: center;
   color: rgb(18, 121, 255);
 }
+/*LEARNING PATHS SECTION -------------------------------------------------------*/
+
 
 
 /*CONTACTS SECTIONS -----------------------------------------------------------*/
@@ -535,7 +554,13 @@ button {
   padding-right: 1.8rem;
 }
 
-/*CHART -----------------------------------------------------------------------*/
+/*CONTACTS SECTIONS -----------------------------------------------------------*/
+
+
+
+
+
+/*CHART LEARNING PATHS -----------------------------------------------------------------------*/
 .chart-container {
   position: relative;
   align-items: center;
@@ -574,6 +599,8 @@ button {
 #chart-button:hover {
   background-color: rgba(0, 68, 198, 0.76);
 }
+/*CHART LEARNING PATHS -----------------------------------------------------------------------*/
+
 
 
 
@@ -599,6 +626,8 @@ button {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+/*BACK TO TOP BUTTON*/
 
 
 
