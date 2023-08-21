@@ -29,8 +29,8 @@ html,body
 	display: block;
 	width: 20px;
 	height: 20px;
-	border-bottom: 2px solid rgb(255, 0, 0);
-	border-right: 2px solid rgb(255, 0, 0);
+	border-bottom: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(255, 255, 255);
 	transform: rotate(45deg);
 	margin: -10px;
 	animation: animate 2s infinite;
@@ -71,7 +71,9 @@ html,body
   align-items: center;
   display: block;
   margin: 0;
- 
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
 }
 
 #responsive-image2{
@@ -80,6 +82,9 @@ html,body
   display: block;
   margin-top: 0rem;
   margin-bottom: 0rem;
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
 }
 
 #responsive-image3{
@@ -89,6 +94,9 @@ html,body
   margin-top: 0rem;
   padding-bottom: 3rem;
   background-color: black;
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
 }
 /*IMAGE DIVIDE DESIGN RENE PUNGARTNIK*/
 
