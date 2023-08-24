@@ -184,11 +184,11 @@ html,body
 #about-me-h1 {
     text-align: center;
     padding-top: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
-    font-family: 'Ruwudu', serif;
-    text-decoration: underline;
+    font-family: 'Sedgwick Ave Display', cursive;
+    
 }
 
 #container-text-about-me {
