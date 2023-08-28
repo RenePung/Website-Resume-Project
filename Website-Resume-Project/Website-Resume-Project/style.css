@@ -864,11 +864,11 @@ button {
   font-size: 1.5rem;
   
 }
-}
+
 #header-text-vertificates {
   font-size: 1.9rem;
 }
-.swiper-slide img{
+.swiper-slide img {
   width: 80%;
   padding-top: 30px;
   padding-left: 0.5rem;
@@ -876,7 +876,12 @@ button {
   margin-left: 6.3rem;
 }
 }
+
 /*MEDIA QUERY 769px x 1024px mode----------------END------------------------*/
+
+
+/*MEDIA QUERY 1025px x 1200px mode----------------START------------------------*/
+/*MEDIA QUERY 1025px x 1200px mode----------------END------------------------*/
 
 
 /*MEDIA QUERYS FOR PORTRAIT AND LANDSCAPE POSITION - MOBILE FIRST - SPECIFIC DEVICE WIDTHS - USING CHROME DEVELOPER TOOL START------------------------------------------------------*/
