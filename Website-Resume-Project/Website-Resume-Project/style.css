@@ -715,7 +715,20 @@ button {
 
 
 /*MEDIA QUERY 425px x 769px mode----------------START------------------------*/
+@media (min-width: 425px) and (orientation: portrait) {
+  #about-me-h1 { 
+    font-size: 1.7rem;
+}
 
+#container-text-about-me {
+  height: 70vh;
+}
+
+#introduction-text {
+    padding-top: 5rem;
+    font-size: 1.1rem;
+}
+}
 /*MEDIA QUERY 425px x 769px mode----------------END------------------------*/
 
 
