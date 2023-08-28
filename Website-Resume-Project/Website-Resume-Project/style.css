@@ -657,7 +657,24 @@ button {
 
 
 /*MEDIA QUERY 320px x 480px mode----------------START------------------------*/
-                                                                              
+@media (min-width: 480px) and (orientation: landscape) {
+  #introduction-text {
+    font-size: 0.85rem;
+}
+.tracker {
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #002fff; /* Add a border around the tracker */
+  border-radius: 10px; /* Add rounded corners to the border */
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 30px;
+  color: white;
+}
+}
+        
 /*MEDIA QUERY 320px x 480px mode----------------END------------------------*/
 
 
