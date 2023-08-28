@@ -786,7 +786,96 @@ button {
 
 
 /*MEDIA QUERY 769px x 1024px mode----------------START------------------------*/
+@media (min-width: 771px) and (orientation: portrait) {
+  #about-me-h1 { 
+    font-size: 2.7rem;
+}
 
+#container-text-about-me {
+  height: 70vh;
+}
+
+#introduction-text {
+    padding-top: 10rem;
+    font-size: 1.5rem;
+}
+
+#myBtn {
+  right: 20px;
+  font-size: 30px;
+}
+#container-text-paths {
+  margin-top: 80px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+#text-paths {
+  font-family: 'Ruwudu', serif;
+  text-align: center;
+  color: rgb(18, 121, 255);
+  font-size: 1.4rem;
+}
+.tracker {
+  margin-left: 24%;
+  margin-right: 3%;
+}
+.top-border-container {
+  font-size: 1.5rem;
+  
+}
+}
+#header-text-vertificates {
+  font-size: 1.9rem;
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  #about-me-h1 { 
+    font-size: 2.7rem;
+}
+
+#container-text-about-me {
+  height: 70vh;
+}
+
+#introduction-text {
+    padding-top: 8.5rem;
+    font-size: 1.3rem;
+}
+
+#myBtn {
+  right: 20px;
+  font-size: 30px;
+}
+#text-paths {
+  font-family: 'Ruwudu', serif;
+  text-align: center;
+  color: rgb(18, 121, 255);
+  font-size: 1.4rem;
+}
+.tracker {
+  margin-left: 31%;
+  margin-right: 3%;
+}
+.top-border-container {
+  font-size: 1.5rem;
+  
+}
+}
+#header-text-vertificates {
+  font-size: 1.9rem;
+}
+.swiper-slide img{
+  width: 80%;
+  padding-top: 30px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 6.3rem;
+}
+}
 /*MEDIA QUERY 769px x 1024px mode----------------END------------------------*/
 
 
