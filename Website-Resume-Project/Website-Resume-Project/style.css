@@ -115,6 +115,7 @@ html,body
     background-color: var(--color2);
     padding: 12px 20px;
     z-index: 10;
+    font-family: 'Ruwudu', serif;
 }
 .logo img {width: 40px;}
 .menu {display: flex;}
