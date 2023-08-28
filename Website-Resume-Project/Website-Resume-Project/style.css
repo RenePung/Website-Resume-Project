@@ -652,6 +652,14 @@ button {
 /*BACK TO TOP BUTTON*/
 
 
+.github-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  /* Add other styling properties here */
+}
+
 
 /*MEDIA QUERYS FOR PORTRAIT AND LANDSCAPE POSITION - MOBILE FIRST - SPECIFIC DEVICE WIDTHS - USING CHROME DEVELOPER TOOL START------------------------------------------------------*/
 
