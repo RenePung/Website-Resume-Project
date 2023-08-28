@@ -880,8 +880,43 @@ button {
 /*MEDIA QUERY 769px x 1024px mode----------------END------------------------*/
 
 
-/*MEDIA QUERY 1025px x 1200px mode----------------START------------------------*/
-/*MEDIA QUERY 1025px x 1200px mode----------------END------------------------*/
+/*MEDIA QUERY 1025px mode----------------START------------------------*/
+@media (min-width: 1025px) and (orientation: landscape) {
+#about-me-h1 { 
+  font-size: 2.7rem;
+}
+
+#container-text-about-me {
+height: 70vh;
+}
+
+#introduction-text {
+  padding-top: 6.5rem;
+  font-size: 1.25rem;
+}
+#text-paths {
+  font-size: 1.2rem;
+}
+.top-border-container {
+  font-size: 1.2rem;
+  
+}
+
+#header-text-vertificates {
+  font-size: 1.7rem;
+}
+.swiper-slide img {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 16rem;
+}
+}
+
+
+
+/*MEDIA QUERY 1025px mode----------------END------------------------*/
 
 
 /*MEDIA QUERYS FOR PORTRAIT AND LANDSCAPE POSITION - MOBILE FIRST - SPECIFIC DEVICE WIDTHS - USING CHROME DEVELOPER TOOL START------------------------------------------------------*/
